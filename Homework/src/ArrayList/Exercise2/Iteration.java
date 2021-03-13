@@ -1,2 +1,4 @@
-package ArrayList.Exercise2;public class Iteration {
+package ArrayList.Exercise2;
+
+public class Iteration {
 }

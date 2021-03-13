@@ -32,16 +32,19 @@ public class HashMapDemo {
         //System.out.println("The union for the sets is " + list.contains(list1));
         //list.addAll(list1);
         //System.out.println(list);
+        boolean a=false;
         for(int i:list){
-          if(i==1){
-              System.out.println("The number is 2");
+          if(i==2){
+              a=true;
               break;
           }
-          else {
-              System.out.println("The number cant be found");
-          }
         }
-
+        if(a==true){
+            System.out.println("Number found");
+        }
+        else{
+            System.out.println("number not found ");
+        }
         //list.retainAll(list1);
         //System.out.println(list);
 
